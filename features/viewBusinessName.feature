@@ -3,5 +3,6 @@ Feature: Business rules for login
   As a persona
   I want to be able to verify login step 
 
-  Scenario: Check login flow
-  Given I login to Casso page
+  Scenario: Check business name
+    Given I login to Casso page  
+    And I view business name

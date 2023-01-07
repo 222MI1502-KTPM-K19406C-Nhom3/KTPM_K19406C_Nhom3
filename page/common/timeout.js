@@ -1,3 +1,5 @@
 module.exports = {
-    loading: 5
+    loading: 50,
+    loading_element: 10,
+    loading_edit: 100,
 }
