@@ -7,6 +7,7 @@ Feature: Business rules for full flow
     Given I login to Casso page
     And I click on create business button
     And I create a new business 
+    And I create a new API key
     And I delete business
 
   

@@ -1,5 +1,5 @@
 module.exports = {
-    settingTab: '//app-sidebar-bussiness/mat-nav-list/mat-accordion/div[3]/mat-expansion-panel/mat-expansion-panel-header[1]/span/mat-panel-description',
+    
     APIKeysTab: '//mat-accordion/div[3]/mat-expansion-panel/div/div/a[6]',
     createAPIButton: '//button[@class="mat-focus-indicator mat-raised-button mat-button-base"]',
     APIField: "//mat-dialog-container[@id='mat-dialog-0']/app-api-key-panel/div/div[2]/form/mat-form-field/div/div/div/input",

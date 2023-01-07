@@ -14,7 +14,7 @@ module.exports = {
         I.click(homePageLocator.home.deleteBusinessDropdown)
         I.waitForElement(homePageLocator.home.deleteBusinessButton, timeout.loading_element)
         I.click(homePageLocator.home.deleteBusinessButton)
-        I.waitForElement(homePageLocator.home.deleteBusinessInput, timeout.loading_element)
+        I.waitForElement(homePageLocator.home.deleteBusinessInput, timeout.loading_edit)
         I.fillField(homePageLocator.home.deleteBusinessInput, tenDN)
         I.waitForElement(homePageLocator.home.confirmButton, timeout.loading_element)
         I.click(homePageLocator.home.confirmButton)
