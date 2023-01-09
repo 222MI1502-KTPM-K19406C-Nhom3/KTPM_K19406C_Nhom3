@@ -1,7 +1,7 @@
 module.exports = {
     menu: {
         logOutText: '//span[text()="Đăng xuất"]',
-        settingTab: '//app-sidebar-bussiness/mat-nav-list/mat-accordion/div[3]/mat-expansion-panel/mat-expansion-panel-header[1]/span/mat-panel-description',
+        settingTab: "//p[contains(.,'Thiết lập')]",
         thietLapKhacTab: '//mat-accordion/div[3]/mat-expansion-panel/div/div/a[7]',
         tenDoanNghiepText:'//mat-nav-list/div/a/div/span'
 

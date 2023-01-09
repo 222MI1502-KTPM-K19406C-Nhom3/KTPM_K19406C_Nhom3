@@ -10,9 +10,9 @@ module.exports = {
     createAPI(apiKeys) {
      
         //create
-        I.waitForElement(homePageLocator.menu.settingTab, timeout.loading_element)
-        customMethod.clickElement(homePageLocator.menu.settingTab);
-        I.waitForElement(homePageLocator.menu.settingTab, timeout.loading_element)
+        I.waitForElement(APILocator.settingTab, timeout.loading_element)
+        customMethod.clickElement(APILocator.settingTab);
+        I.waitForElement(APILocator.APIKeysTab, timeout.loading_element)
         customMethod.clickElement(APILocator.APIKeysTab);
         I.waitForElement(APILocator.createAPIButton, timeout.loading_element)
         customMethod.clickElement(APILocator.createAPIButton);
